@@ -1,0 +1,257 @@
+{
+	"id": "b5a24e70-3253-4cda-baab-e7ae56d92561",
+	"name": "API_cv",
+	"timestamp": "2023-04-04T14:25:26.663Z",
+	"collection_id": "23911889-8d677149-d0aa-4dfe-9310-cf64fa0a625e",
+	"folder_id": 0,
+	"environment_id": "23911889-341fc191-aa30-48d2-ac70-e35c797d754e",
+	"totalPass": 10,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-04-04T14:25:24.337Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7f549983-4e6f-4834-8a71-28a2c7f71ccb",
+			"name": "User addition verification",
+			"url": "https://gorest.co.in/public/v2/users/722716",
+			"time": 521,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check name": true,
+				"Check gender": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check gender": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				521
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check name": true,
+					"Check gender": true
+				}
+			]
+		},
+		{
+			"id": "22ca2895-f7d5-466a-bee7-2b0c2dc48c95",
+			"name": "Verification of updating part of the post",
+			"url": "https://jsonplaceholder.typicode.com/posts/3",
+			"time": 276,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				276
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2cb64fea-e5f8-4fc6-9ccc-c6e5a253d28a",
+			"name": "Verification of updating post",
+			"url": "https://jsonplaceholder.typicode.com/posts/4",
+			"time": 290,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				290
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "85ed5ddd-bcea-43a4-8fdd-c1efee7c0fc4",
+			"name": "Verification of deleting post",
+			"url": "https://jsonplaceholder.typicode.com/posts/4",
+			"time": 235,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				235
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "822d299a-0bbe-46b4-9a27-a620980d6872",
+			"name": "Verification of posting post",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 340,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				340
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "31d0bfa4-e786-433b-8688-5638aec3c452",
+			"name": "Addition verification",
+			"url": "https://jsonplaceholder.typicode.com/users/1",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1ac8aaab-00da-4e3c-a45a-784cb88d7a8e",
+			"name": "Verification of posting post",
+			"url": "http://localhost:3000/posts",
+			"time": 36,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Check title": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check title": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				36
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Check title": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1715,
+	"collection": {
+		"requests": [
+			{
+				"id": "7f549983-4e6f-4834-8a71-28a2c7f71ccb",
+				"method": "GET"
+			},
+			{
+				"id": "22ca2895-f7d5-466a-bee7-2b0c2dc48c95",
+				"method": "PATCH"
+			},
+			{
+				"id": "2cb64fea-e5f8-4fc6-9ccc-c6e5a253d28a",
+				"method": "PUT"
+			},
+			{
+				"id": "85ed5ddd-bcea-43a4-8fdd-c1efee7c0fc4",
+				"method": "DELETE"
+			},
+			{
+				"id": "822d299a-0bbe-46b4-9a27-a620980d6872",
+				"method": "POST"
+			},
+			{
+				"id": "31d0bfa4-e786-433b-8688-5638aec3c452",
+				"method": "GET"
+			},
+			{
+				"id": "1ac8aaab-00da-4e3c-a45a-784cb88d7a8e",
+				"method": "POST"
+			}
+		]
+	}
+}
